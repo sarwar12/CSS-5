@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial;
+	font-size: 18px;
+	color: #000;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+/*Header Section Start*/
+.heads {
+	text-align: center;
+	background: #D15B76;
+	padding: 24px 0;
+}
+.heads h1 {
+	color: greenyellow;
+}
+.heads p{
+	color: #fff;
+}
+/*nav bar use psedo class*/
+.nav{}
+.nav ul {
+	list-style: none;
+}
+.nav ul li {
+	display: inline-block;
+	background: ghostwhite;
+	padding: 3px 6px;
+	border-right: teal solid 5px;
+	border-left: teal solid 5px;
+	margin: 41px 3px 5px 0px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: #000;
+}
+/*Header Section Stop*/
+/*position Section Start*/
+.position{}
+.static {
+	background: green;
+	padding: 10px 10px;
+	color: white;
+	text-align: justify;
+}
+.static p{}
+.relaive{}
+.relaive img {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	bottom: 40px;
+	left: 50%;
+}
+.relaive p {
+	background: pink;
+	padding: 60px 5px;
+	text-indent: 20px;
+	color: blue;
+	font-weight: bold;
+}
+.fixed {
+	position: fixed;
+	top: 300px;
+}
+.fixed img {
+	display: block;
+	padding: 5px 0;
+	cursor: pointer;
+	width: 15px;
+}
+.absolute{}
+.img1 {
+	width: 68px;
+	position: absolute;
+	left: 267px;
+	top: 28px;
+	border-radius: 50%;
+}
+.img2 {
+	width: 68px;
+	position: absolute;
+	left: 250px;
+	top: 28px;
+	border-radius: 50%;
+	z-index: 3;
+	height: 61px;
+}
+.absolute p{
+	text-align: justify;
+	padding: 20px 10px;
+	background: #FF5500;
+}
+/*position Section Stop*/
+/*display Section Start*/
+.display {
+	margin-top: 20px;
+	background: lightcyan;
+	padding: 13px 0;
+}
+.inline {
+	background: rebeccapurple;
+	color: white;
+	padding: 5px 5px;
+	display: inline;
+}
+.inline_block {
+	background: yellow;
+	padding: 6px 6px;
+	display: inline-block;
+	height: 40px;
+	width: 30%;
+}
+.block {
+	display: block;
+	background: violet;
+	padding: 8px 5px;
+	color: navy;
+}
+/*display Section Stop*/
+/*overflow Section Start*/
+.overflow {
+	margin: 20px 0;
+}
+.visible {
+	background: pink;
+	padding: 10px 5px;
+}
+.visible p{}
+.scroll {
+	background: skyblue;
+	padding: 18px 5px;
+	overflow: scroll;
+	height: 60px;
+	width: 80%;
+}
+.scroll p{}
+.hidden {
+	background: pink;
+	padding: 10px 5px;
+	overflow: hidden;
+}
+.hidden p{}
+.auto {
+	background: yellow;
+	padding: 10px 5px;
+	overflow: auto;
+}
+.auto p{}
+/*overflow Section Stop*/
+/*Visibility Section Start*/
+.visibility{}
+.v_visible {
+	visibility: visible;
+	padding: 10px 0;
+}
+.v_hidden {
+	visibility: hidden;
+	padding: 20px 0;
+}
+/*Visibility Section Stop*/
+/*Before After Section Start*/
+.bfaf {
+	background: gainsboro;
+	padding: 20px 0;
+	text-align: center;
+}
+.bfaf span {
+	background: yellow;
+	color: grey;
+	padding: 2px 5px;
+}
+.bfaf span::before{
+	content: "sarwar";
+	background: red;
+	color: white;
+	padding: 2px 6px;
+}
+.bfaf span::after {
+	content: "khan";
+	background: red;
+	color: white;
+	padding: 2px 6px;
+}
+/*Before After Section Stop*/
+/*Footer Section Start*/
+.foots {
+	background: #73764A;
+	padding: 30px 0;
+	text-align: center;
+	color: white;
+}
+.foots p{
+	display: inline;
+}
+.foots img {
+	width: 38px;
+	height: 34px;
+	border-radius: 50%;
+	position: relative;
+	top: 11px;
+}
+/*Footer Section Stop*/
