@@ -3,22 +3,22 @@
 ### Property & Value:
 #### Position Property::
 		position: static; (its default value, dont use left right top bottom value)
-  		               fixed; ()
-		                relative; (ues top/bottom positive value, left/right negative value )
-		                abdolute; (you use this position but this lose main place. )
-		z-index:1/2/3; (use this property just absolute positioning. value increase and priority this)
+  		          fixed; ()
+		          relative; (ues top/bottom positive value, left/right negative value )
+		          abdolute; (you use this position but this lose main place. )
+		          z-index:1/2/3; (use this property just absolute positioning. value increase and priority this)
 #### Display Property::
 		Display:inline; (Use this value change elements block to inline) (inline dont use height|width)
-		              block;  (Use this value change elements inlineto block )
-		              inline-block;  (You can use inline-block you must use height|width)
+		        block;  (Use this value change elements inlineto block )
+		        inline-block;  (You can use inline-block you must use height|width)
 #### Overflow Property::
 		Overflow: Visible; (Dont control overflow its flowing besides) by default value
-			Scroll; ( showing overflow by horiaontally/ vertically scroll bar)
-			Hidden; ( overflow parts always keep hidden)
-			Auto; (its same to scroll value)
+			  Scroll; ( showing overflow by horiaontally/ vertically scroll bar)
+			  Hidden; ( overflow parts always keep hidden)
+			  Auto; (its same to scroll value)
 #### Visibility Property::
 		Visibility: visible; (use this value show this element)
-		                  hidden; (use this value hide this element)
+		            hidden; (use this value hide this element)
 
 #### Psedo Class::: This is use link Styling
 		hover|active|visited|link ( Ex: a:hover/ a:link/ a:active)
