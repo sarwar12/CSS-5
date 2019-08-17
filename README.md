@@ -1,6 +1,7 @@
 # CSS-5
-diff
+```diff
 - this is my site
+```
 ### Property & Value:
 #### Position Property::
 		position: static; (its default value, dont use left right top bottom value)
