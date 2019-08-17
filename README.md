@@ -1,5 +1,5 @@
 # CSS-5
-
+<span style="color:Green;"> this is my site </span>
 ### Property & Value:
 #### Position Property::
 		position: static; (its default value, dont use left right top bottom value)
