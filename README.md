@@ -6,7 +6,8 @@
   		          fixed; ()
 		          relative; (ues top/bottom positive value, left/right negative value )
 		          abdolute; (you use this position but this lose main place. )
-		          z-index:1/2/3; (use this property just absolute positioning. value increase and priority this)
+		          z-index:1/2/3; (use this property just absolute positioning. value increase and 
+ 			                  priority this)
 #### Display Property::
 		Display:inline; (Use this value change elements block to inline) (inline dont use height|width)
 		        block;  (Use this value change elements inlineto block )
@@ -46,6 +47,7 @@
     	    ( EX: input[type=text]{} )     input[type=text] { color:red; }
           
 
+***
 ## G SARWAR
 ### Web Instructor
 
